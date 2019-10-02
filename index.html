@@ -3,9 +3,17 @@
     <title> Contact Form </title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="./res/jquery-1.9.1.min.js"></script>
 </head>
 
 <body>
+    
+    <div id="loader_container">
+        <div id="loader"></div>
+    
+        <div class="loader_section secLeft"></div>
+        <div class="loader_section secRight"></div>
+    </div>
 
     <div class="contact_form">
         <div class="left_div">
@@ -33,6 +41,9 @@
         </div>
     </div>
 
+
+    <script src="loader.js"></script>
+ 
     <script>
         $(".left_div_img:hover").mouseleave(
         function () {
