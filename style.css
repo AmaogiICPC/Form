@@ -1,0 +1,76 @@
+*{box-sizing: border-box;}
+
+body{
+    background: linear-gradient(to left, #2c3e50 0%, #bdc3c7 50%, #2c3e50 100%);
+}
+
+.contact_form{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+    height: 600px;
+    width: 90%;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.left_div{
+    float: left;
+    width: 50%;
+    height: inherit;
+    padding-top: 170px;
+    background: blue url("leftPart.jpg") 50%/cover no-repeat;
+}
+
+.right_div{
+    float: left;
+    width: 50%;
+    height: inherit;
+    padding-top: 100px;
+    background: linear-gradient(#000428, #004e92)
+}
+
+.right_div hr{
+    width: 20%;
+    border: 3px solid red;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.right_div input, textarea{
+    width: 70%;
+    height: 30px;
+    background-color: transparent;
+    margin: 10px auto;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    color: white;
+    font-size: 17px;
+}
+
+.right_div textarea{
+    text-align: center;
+    margin-top: 15px;
+    height: 70px;
+}
+
+.right_div input[type="submit"]{
+    border-radius: 5px;
+    border: 2px solid white;
+    background: #bdc3c7;
+    width: 40%;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.right_div input:focus, textarea:focus{
+    border: 5px solid whitesmoke;    
+    outline: none;
+}
+
+.right_div input[type="submit"]:hover{
+    background-color: #2c3e50;
+}
