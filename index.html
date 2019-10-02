@@ -9,12 +9,15 @@
 
     <div class="contact_form">
         <div class="left_div">
+            <img src="leftPart.jpg" alt="Error" class="left_div_img">
+            <div class = "left_div_info">
             <h1>Hello World</h1>
             <br><br>
             <h2>Contact Us
                 <br>
                 We are there to Help!!!
             </h2>
+            </div>
         </div>
         <div class="right_div">
             <h1>Contact Form</h1>
@@ -30,6 +33,12 @@
         </div>
     </div>
 
-
+    <script>
+        $(".left_div_img:hover").mouseleave(
+        function () {
+        $(this).removeClass("hover");
+        }
+        );
+    </script>
 </body>
 </html>
