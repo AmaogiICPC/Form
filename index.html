@@ -32,10 +32,10 @@
             <hr>
             <br><br>
 
-            <form method="POST" action="">
-                <input type = "text" placeholder="Name" name="name" required> 
-                <input type = "email" placeholder="Your email" name = "email" required>
-                <textarea name="msg" placeholder="Your Message" rows="4" required></textarea>
+            <form method="POST" id="contact_form">
+                <input type = "text" placeholder="Name" id="name" > 
+                <input type = "email" placeholder="Your email" id = "email" >
+                <textarea id="msg" placeholder="Your Message" rows="4" ></textarea>
                 <input type="submit" class="submit" value="Send Message">
             </form>
         </div>
@@ -43,6 +43,11 @@
 
 
     <script src="loader.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+    <script src="main.js"></script>
  
     <script>
         $(".left_div_img:hover").mouseleave(
